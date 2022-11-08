@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Module 6 Weather Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <div class="col-12 col-md-12 mb-3 p-3 bg-white rounded">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+                <h1 class="navbar-brand title" href="#">Weather Dashboard</h1>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-4">
+                <h2 class="city-search">Search for a City:</h2>
+                <form>
+                    <input type="text" id="cityInput" placeholder="Toronto">
+                    <button type="button" id="search" class="btn btn-success btn-md search">Search</button>
+                </form>
+            </div>
+            <section class="col-8">
+                <div id="searchedCity" class="container border border-dark bg-secondary">
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <div id="history" class="col-4">
+                <hr>
+            </div>
+            <section class="col-8">                
+                <div id="fiveDays" class="container">
+                    <h2 class="city-search long-forecast">Future Forecast:</h3>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
+
