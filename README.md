@@ -33,4 +33,4 @@ When you open the page you are met with a search bar, titled "search for a city"
 ![Weather Dashboard Screenshots](assets/images/weatherdashboard2.png)
 ## Deployed Page
 
-The webpage has been deployed at: https://scriptmatcha.github.io/weather-dashboard/
+The webpage has been deployed at: https://bobascript.github.io/weather-dashboard/
